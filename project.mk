@@ -67,3 +67,4 @@ STRIP_PATCHES_OPTIONS='^(?:chr)?[12]?\d|MT|[XY]$$'
 
 # If you do not wish to trim, uncomment the following
 # NOTRIM=1
+TRIMMOMATIC_OPTIONS?=ILLUMINACLIP:$(TRIMMOMATIC_FASTA_PATH)/TruSeq2-SE.fa:2:20:10
